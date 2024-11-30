@@ -17,7 +17,7 @@ public class ExternalOfficeManagerSample {
             officeManger.start();
 
             // テンプレートファイル
-            var template = LocalOfficeManagerSample.class.getClassLoader().getResourceAsStream("template.xlsx");
+            var template = ExternalOfficeManagerSample.class.getClassLoader().getResourceAsStream("template.xlsx");
             // 出力先
             var report = new File("output/invoice.pdf");
 
