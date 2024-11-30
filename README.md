@@ -10,7 +10,7 @@ JODConverterを利用するコードのサンプル。
 mvn clean package
 ```
 
-##　実行方法
+## 実行方法
 
 ### JODConverterでLibreOfficeプロセスを管理する場合
 
